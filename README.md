@@ -1,4 +1,4 @@
-# **Quiz2-DAA-H-MazeGeneratorSolver** 
+# **Quiz 2 DAA - Maze Generator & Solver** 
 Repository for Design & Analysis of Algorithms Secondary Quiz.
 
 ## **Group Members**
@@ -58,7 +58,6 @@ DFS is a widely used algorithm for maze problem solving. It explores the maze by
 - **Solved with DFS**
 
 ![Solved](https://media.discordapp.net/attachments/1083730715113426985/1108432271310073997/image.png?width=642&height=701)
-
 
 # **Contribution List**
 
