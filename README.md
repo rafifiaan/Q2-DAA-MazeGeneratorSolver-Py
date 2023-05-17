@@ -1,4 +1,4 @@
-# **Quiz 2 DAA - Maze Generator & Solver** 
+# **Quiz 2 (DAA) - Maze Generator & Solver** 
 Repository for Design & Analysis of Algorithms Secondary Quiz.
 
 ## **Group Members**
