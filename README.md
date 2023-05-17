@@ -40,7 +40,7 @@ The following is a brief explanation of the algorithm used. To see a more comple
 
 - **Maze Generator (Prim's MST and DFS Algorithm)** <br>
 <div align=justify>
-To create a maze, combine Prim's algorithm and DFS. Prim's algorithm starts with a grid where all cells are walls. It randomly selects a starting cell, adds it to visited cells, and adds neighboring cells to the unvisited list. The algorithm selects the cell with the minimum weight, removes it from the unvisited list, and marks walls as passages. This continues until all cells are visited, resulting in a connected maze. DFS adds complexity to the generated maze. It starts at a random cell and explores neighboring cells recursively. It removes walls, creates passages, and continues exploring until reaching a dead end. The algorithm backtracks and explores other unvisited neighboring cells. DFS ensures all cells are interconnected, creating a challenging maze.
+To create a maze, combine Prim's algorithm and DFS. Prim's algorithm starts with a grid where all cells are walls. It randomly selects a starting cell, adds it to visited cells, and adds neighboring cells to the unvisited list. The algorithm selects the cell with the minimum weight, removes it from the unvisited list, and marks walls as passages. This continues until all cells are visited, resulting in a connected maze. DFS adds complexity to the generated maze. It starts at a random cell and explores neighboring cells recursively. It removes walls, creates passages, and continues exploring until reaching a dead end. The algorithm backtracks and explores other unvisited neighboring cells. DFS ensures all cells are interconnected, creating a challenging maze. <br><br/>
 
 - **Maze Solver (Depth First Search Algorithm)**
 
