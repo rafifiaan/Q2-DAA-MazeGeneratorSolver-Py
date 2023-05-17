@@ -34,7 +34,6 @@ Here is the visualization for Maze Problem:
 
 ## **Implementation**
 The following is a brief explanation of the algorithm used. To see a more complete explanation, you can visit [this page](https://docs.google.com/document/d/1rBJiJ0srbW19zWIxvrYbQuQJzs4kif04ugv55M70GMg/edit?usp=sharing) or via the following link: <br>https://its.id/m/DAA-Quiz-Report
-<style>body {text-align: justify}</style>
 
 - **Maze Generator (Prim's MST and DFS Algorithm)** <br>
 <p style='text-align: justify;'> To create a maze, combine Prim's algorithm and DFS. Prim's algorithm starts with a grid where all cells are walls. It randomly selects a starting cell, adds it to visited cells, and adds neighboring cells to the unvisited list. The algorithm selects the cell with the minimum weight, removes it from the unvisited list, and marks walls as passages. This continues until all cells are visited, resulting in a connected maze. DFS adds complexity to the generated maze. It starts at a random cell and explores neighboring cells recursively. It removes walls, creates passages, and continues exploring until reaching a dead end. The algorithm backtracks and explores other unvisited neighboring cells. DFS ensures all cells are interconnected, creating a challenging maze. Combining Prim's algorithm and DFS generates diverse mazes in Python. </p>
